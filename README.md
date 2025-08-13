@@ -1,7 +1,6 @@
 # The Dynamic UPR Rheostat Orchestrates Single-Cell Plasticity in Glioblastoma
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![DOI](https://zenodo.org/badge/DOI/PENDING.svg)](https://doi.org/PENDING)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16834889.svg)](https://doi.org/10.5281/zenodo.16834889)
 
 ## Overview
 
@@ -9,10 +8,10 @@ This repository contains the complete computational workflow for single-cell RNA
 
 ## Key Findings
 
-- The UPR operates as a graded, arm-resolved rheostat rather than a binary switch
-- IRE1/XBP1 and ATF6 arms are tightly coordinated while PERK exhibits semi-independent behavior
-- Rheostatic tuning correlates with hypoxia and metabolic programs
-- Cross-dataset validation confirms robustness across technologies (SMART-seq and 10x)
+- The UPR operates as a graded, arm-resolved rheostat rather than a binary switch.
+- IRE1/XBP1 and ATF6 arms are tightly coordinated while PERK exhibits semi-independent behavior.
+- Rheostatic tuning correlates with hypoxia and metabolic programs.
+- Cross-dataset validation confirms robustness across technologies (SMART-seq and 10x).
 
 ## Data
 
@@ -70,3 +69,5 @@ Computational resources were provided by TUBITAK ULAKBIM, High Performance and G
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
+
+
