@@ -23,11 +23,11 @@ This repository contains the complete computational workflow for single-cell RNA
 
 ```
 GBM-UPR-Rheostat/
-+¦¦ code/               # Analysis scripts
-+¦¦ data/               # Processed data and resources
-+¦¦ results/            # Figures and tables
-+¦¦ environment/        # Package dependencies
-L¦¦ docs/               # Documentation
++Â¦Â¦ code/               # Analysis scripts
++Â¦Â¦ data/               # Processed data and resources
++Â¦Â¦ results/            # Figures and tables
++Â¦Â¦ environment/        # Package dependencies
+LÂ¦Â¦ docs/               # Documentation
 ```
 
 ## Requirements
@@ -60,8 +60,8 @@ Duzgun Z. (2025). The Dynamic UPR Rheostat Orchestrates Single-Cell Plasticity i
 
 **Zekeriya Duzgun**  
 Department of Medical Biology, Faculty of Medicine  
-Giresun University, Giresun, Türkiye  
-Email: zekeriya.duzgun@giresun.edu.tr
+Giresun University, Giresun, TÃ¼rkiye  
+Email: zekeriya.duzgun@giresun.edu.tr, zduzgun@gmail.com
 
 ## Acknowledgments
 
