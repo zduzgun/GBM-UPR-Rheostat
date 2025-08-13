@@ -1,0 +1,5 @@
+"Dataset","Technology","Tissue","Metric","Count"
+"Patel (2014)","Smart-seq","Primary GBM","Cells",871
+"Patel (2014)","Smart-seq","Primary GBM","Genes",40199
+"Neftel (2019)","10X Genomics","Primary GBM","Cells",11877
+"Neftel (2019)","10X Genomics","Primary GBM","Genes",30314
