@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Duzgun"
+    given-names: "Zekeriya"
+    affiliation: "Giresun University"
+    email: "zekeriya.duzgun@giresun.edu.tr"
+title: "GBM-UPR-Rheostat: Single-cell analysis of UPR control in glioblastoma"
+version: 1.0.0
+date-released: 2025-01-01
+url: "https://github.com/zduzgun/GBM-UPR-Rheostat"
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Duzgun"
+      given-names: "Zekeriya"
+  title: "The Dynamic UPR Rheostat Orchestrates Single-Cell Plasticity in Glioblastoma"
+  year: 2025
+  journal: "Journal Name (Pending)"
+  doi: "Pending"

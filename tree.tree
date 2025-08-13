@@ -1,0 +1,173 @@
+.
+├── CITATION.cff
+├── LICENSE
+├── README.md
+├── code
+│   ├── 01_preprocessing
+│   │   ├── 01_seurat_setup.R
+│   │   ├── 02_seurat_qc.R
+│   │   └── create_matrix.R
+│   ├── 02_main_analysis
+│   │   ├── 03_seurat_analysis.R
+│   │   ├── 04_upr_reostat_analysis.R
+│   │   └── 05_cluster_characterization.R
+│   ├── 03_integrated_analysis
+│   │   ├── 06_01_module_scores.R
+│   │   ├── 06_02_metabolic_scores.R
+│   │   ├── 06_03_correlation_analysis.R
+│   │   ├── 06_04_trajectory_analysis.R
+│   │   ├── 06_05_liana_analysis.R
+│   │   ├── 06_06_final_integration.R
+│   │   ├── 06_07_fix_score_names.R
+│   │   ├── 06_09_focused_UPR_figures_FIXED.R
+│   │   ├── 06_10_fix_reostat_calculation.R
+│   │   ├── 06_11_making_figures.R
+│   │   ├── check_upr_scores.R
+│   │   ├── figure1_script.R
+│   │   ├── figure2_script.R
+│   │   ├── figure3_script.R
+│   │   └── liana_debug.R
+│   ├── 04_validation
+│   │   ├── 07_01_neftel_data_loading_and_setup.R
+│   │   ├── 07_02_neftel_clustering_and_visualization.R
+│   │   ├── 07_03_neftel_upr_reostat_validation.R
+│   │   ├── 07_04_neftel_trajectory_analysis.R
+│   │   ├── 07_05_neftel_cluster_characterization.R
+│   │   ├── 07_06_neftel_filter_malignant.R
+│   │   ├── 07_07_malignant_trajectory_analysis.R
+│   │   ├── 07_08_pseudotime_gene_analysis.R
+│   │   ├── 07_09_debug_check_packages.R
+│   │   ├── 07_09_functional_enrichment_analysis.R
+│   │   ├── 07_10_fix_and_run_rheostat.R
+│   │   ├── 07_10_rheostat_validation_on_trajectory.R
+│   │   ├── figure4_script.R
+│   │   └── figure5_script.R
+│   ├── 05_figures
+│   │   ├── figure1_script.R
+│   │   ├── figure2_script.R
+│   │   ├── figure3_script.R
+│   │   ├── figure4_script.R
+│   │   └── figure5_script.R
+│   └── utils
+│       ├── SRA_Automated_FASTQ_Extractor_SAFE.sh
+│       ├── SRA_Automated_FASTQ_Extractor_SAFE_faster.sh
+│       ├── config_example.py
+│       ├── get_stats.sh
+│       ├── run_kallisto.py
+│       ├── test_pipeline.py
+│       └── ultra_fast_qc.py
+├── data
+│   ├── README.md
+│   └── tables
+│       ├── 06_06_analysis_pipeline_summary.csv
+│       ├── 07_05_neftel_all_cluster_markers.csv
+│       ├── 07_08_pseudotime_dependent_genes.csv
+│       ├── 07_09_GO_enrichment_results.csv
+│       ├── 07_09_KEGG_enrichment_results.csv
+│       ├── 07_10_rheostat_summary_by_pseudotime.csv
+│       ├── Figure1_Enhanced_GBM_Heterogeneity_composition_long.csv
+│       ├── Figure1_Enhanced_GBM_Heterogeneity_composition_wide.csv
+│       ├── Figure1_Enhanced_GBM_Heterogeneity_violin_statistics.csv
+│       ├── Figure2_Enhanced_UPR_Rheostat_Hypothesis_correlations.csv
+│       ├── Figure2_Enhanced_UPR_Rheostat_Hypothesis_enrichment_heatmap.csv
+│       ├── Figure2_Enhanced_UPR_Rheostat_Hypothesis_enrichment_long.csv
+│       ├── Figure2_Enhanced_UPR_Rheostat_Hypothesis_upr_raw_data.csv
+│       ├── Figure3A_correlation_matrix.csv
+│       ├── Figure3B_upr_balance_ratios.csv
+│       ├── Figure3C_coordinates_upr_data.csv
+│       ├── Figure3_complete_metadata.csv
+│       ├── Figure4A_patel_upr_dynamics.csv
+│       ├── Figure4B_neftel_upr_dynamics.csv
+│       ├── Figure4C_correlation_comparison.csv
+│       ├── Figure4D_dataset_statistics.csv
+│       ├── Figure4_cross_validation_summary.csv
+│       ├── Figure5A_rheostat_metrics.csv
+│       ├── Figure5B_coordination_data.csv
+│       ├── Figure5C_switching_dynamics.csv
+│       ├── Figure5D_balance_vs_activity.csv
+│       ├── Figure5E_pathway_gene_correlations.csv
+│       ├── Figure5_UPR_raw_scores.csv
+│       ├── Figure5_mechanistic_analysis_summary.csv
+│       ├── UPR_cluster_corrected_summary.csv
+│       ├── all_cluster_markers.csv
+│       ├── cluster6_received_signals.csv
+│       ├── cluster_receiver_summary.csv
+│       ├── cluster_sender_summary.csv
+│       ├── glio_head.csv
+│       ├── liana_top100_interactions.csv
+│       └── target_cluster_interactions.csv
+├── docs
+├── environment
+│   └── requirements.txt
+├── results
+│   └── figures
+│       ├── 01_liana_top100_interactions.pdf
+│       ├── 06_06_integration_figure1.pdf
+│       ├── 06_06_integration_figure2.pdf
+│       ├── 06_06_integration_figure3.pdf
+│       ├── 06_06_integration_figure4.pdf
+│       ├── 07_02_neftel_umap_clusters.pdf
+│       ├── 07_03_neftel_upr_scores_umap.pdf
+│       ├── 07_04_neftel_trajectory_plots.pdf
+│       ├── 07_05_neftel_top10_markers_heatmap.pdf
+│       ├── 07_06_neftel_filtering_comparison.pdf
+│       ├── 07_07_malignant_trajectory_plots.pdf
+│       ├── 07_08_pseudotime_gene_plots.pdf
+│       ├── 07_09_enrichment_plots.pdf
+│       ├── 07_10_rheostat_validation_plots.pdf
+│       ├── Corrected_UPR_Reostat_Index.pdf
+│       ├── Figure1_Enhanced_GBM_Heterogeneity.pdf
+│       ├── Figure1_Enhanced_GBM_Heterogeneity.png
+│       ├── Figure1_Enhanced_GBM_Heterogeneity_highres.png
+│       ├── Figure2_Enhanced_UPR_Rheostat_Hypothesis.pdf
+│       ├── Figure2_Enhanced_UPR_Rheostat_Hypothesis.png
+│       ├── Figure3_UPR_Stress_Integration.pdf
+│       ├── Figure3_UPR_Stress_Integration_1200dpi.png
+│       ├── Figure3_UPR_Stress_Integration_combined.pdf
+│       ├── Figure3_UPR_Stress_Integration_combined_1200dpi.png
+│       ├── Figure4_Cross_Validation_UPR_Rheostat.pdf
+│       ├── Figure4_Cross_Validation_UPR_Rheostat_1200dpi.png
+│       ├── Figure5_UPR_Rheostat_Mechanistic_Analysis.pdf
+│       ├── QC_metrics_before_filtering.pdf
+│       ├── QC_scatter_plots_before_filtering.pdf
+│       ├── UMAP_clusters.pdf
+│       ├── UPR_Reostat_UMAP_Visualization.pdf
+│       ├── cluster6_specific_analysis.pdf
+│       ├── elbow_plot.pdf
+│       ├── glioblastoma_trajectory_SIMPLE_ROBUST.pdf
+│       ├── marker_dotplot.pdf
+│       ├── marker_heatmap.pdf
+│       └── upr_correlation_heatmap.pdf
+├── setup_github.sh
+├── slurm_scripts
+│   ├── md_debug_R.slurm
+│   ├── md_debug_kallsito_test.slurm
+│   ├── md_orfoz.slurm
+│   ├── md_orfoz_R.slurm
+│   ├── run_07_01_neftel_setup.sbatch
+│   ├── run_07_02_neftel_clustering.sbatch
+│   ├── run_07_03_neftel_reostat_validation.sbatch
+│   ├── run_07_04_neftel_trajectory.sbatch
+│   ├── run_07_05_neftel_marker_finding.sbatch
+│   ├── run_07_06_neftel_filtering.sbatch
+│   ├── run_07_07_malignant_trajectory.sbatch
+│   ├── run_07_08_pseudotime_gene_analysis.sbatch
+│   ├── run_07_09_debug_check.sbatch
+│   ├── run_07_09_functional_enrichment.sbatch
+│   ├── run_07_10_fix_and_run_rheostat.sbatch
+│   ├── run_07_10_rheostat_validation.sbatch
+│   ├── submit_06_01.sbatch
+│   ├── submit_06_02.sbatch
+│   ├── submit_06_03.sbatch
+│   ├── submit_06_04.sbatch
+│   ├── submit_06_05.sbatch
+│   ├── submit_06_06.sbatch
+│   ├── submit_06_11.sbatch
+│   ├── submit_characterization.sbatch
+│   ├── submit_seurat_analysis.sbatch
+│   ├── submit_seurat_qc.sbatch
+│   ├── submit_seurat_setup.sbatch
+│   └── submit_upr_analysis.sbatch
+└── tree.tree
+
+15 directories, 156 files
