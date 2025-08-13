@@ -1,0 +1,45 @@
+# ENTERPRISE KALLISTO PIPELINE REQUIREMENTS
+# =========================================
+# Production-grade dependencies with specific versions for stability
+
+# Core Scientific Computing
+psutil>=5.9.0                    # System resource monitoring
+packaging>=21.0                  # Version parsing and management
+
+# Data Processing and Analysis
+# Note: These are optional for basic functionality but recommended for full features
+numpy>=1.21.0                    # Numerical computations (optional)
+pandas>=1.3.0                    # Data manipulation (optional)
+
+# Monitoring and Alerting (Optional)
+# Uncomment if you want advanced monitoring features
+# prometheus-client>=0.14.0      # Prometheus metrics export
+# grafana-api>=1.0.3             # Grafana dashboard management
+# slack-webhook>=1.0.0           # Slack notifications
+
+# Development and Testing (Optional)
+# pytest>=7.0.0                  # Unit testing framework
+# pytest-cov>=3.0.0             # Coverage reporting
+# black>=22.0.0                  # Code formatting
+# flake8>=4.0.0                  # Code linting
+# mypy>=0.950                    # Type checking
+
+# Production Deployment (Optional)
+# gunicorn>=20.1.0               # WSGI HTTP Server
+# supervisor>=4.2.4              # Process monitoring
+# logrotate                      # Log rotation (system package)
+
+# Database Support (Optional - for metadata storage)
+# sqlalchemy>=1.4.0             # SQL toolkit
+# sqlite3                       # Built-in with Python
+# postgresql-adapter>=2.9.0     # PostgreSQL support
+
+# Distributed Computing (Optional)
+# celery>=5.2.0                 # Distributed task queue
+# redis>=4.0.0                  # Message broker
+# dask>=2022.0.0                # Parallel computing
+
+# Note: External system requirements (install separately):
+# - kallisto >= 0.48.0          # RNA-seq quantification
+# - bustools >= 0.41.0          # Single-cell RNA-seq processing (optional)
+# - samtools >= 1.15            # SAM/BAM processing (optional) 
