@@ -24,7 +24,6 @@ This repository contains the complete computational workflow for single-cell RNA
 GBM-UPR-Rheostat/
 +¦¦ code/               # Analysis scripts
 +¦¦ data/               # Processed data and resources
-+¦¦ results/            # Figures and tables
 +¦¦ environment/        # Package dependencies
 L¦¦ docs/               # Documentation
 ```
