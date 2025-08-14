@@ -1,6 +1,6 @@
 # The Dynamic UPR Rheostat Orchestrates Single-Cell Plasticity in Glioblastoma
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16834889.svg)](https://doi.org/10.5281/zenodo.16834889)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.16870600.svg)](https://doi.org/10.5281/zenodo.16870600)
 
 ## Overview
 
